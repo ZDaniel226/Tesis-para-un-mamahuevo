@@ -1,0 +1,140 @@
+//estos son los estilos que se les dara a cada uno de los elementos que estan en el html
+//los que estan con puntos son de clases, los que estan con # son de id, y los que no tienen nd al comienzo son de las etiquetas 
+
+*{//el asterisco es para dar estilos generales
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ion-content {
+    --background: linear-gradient(to bottom,var(--ion-background-color), #5dbba7 );
+    --ion-background-color:  #4697B4;
+    background-color: #5c5a5a;
+    width: 100%;
+    vertical-align: middle;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.general{
+    display: grid;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #A7D0D2;
+    width: 100%;
+}
+
+#titulo{
+    color: var(--color-grey-900, #A7D0D2);
+    text-align: center;
+    font-family: var(--heading-h-4-font-family, "Inter-Bold", sans-serif);
+    font-size: var(--heading-h-4-font-size, 24px);
+    font-weight: var(--heading-h-4-font-weight, 700);
+}
+
+.conTtex{
+    color: var(--color-secondary-400, #ffd534);
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#text{ 
+    color: #ffd534;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ion-item{
+    width: 300px;
+    --background: #4697B4;
+    background-color: #4697B4;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: var(--color-grey-200, #eeeff2);
+    border-width: 1px;
+    padding: 0px 0px 20px 10px;
+    display: flex;
+    text-align: start;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.SingUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton {
+    background: #4697B4;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-shrink: 0;
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+
+.text-correo{
+    display: flex;
+    align-items: self-start;
+    margin-left: 45px;
+}
+
+#texinf{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 15% 0% 15%;
+}
+
+#terCond{
+    text-align: center;
+}
+
+.textos{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #A7D0D2;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}

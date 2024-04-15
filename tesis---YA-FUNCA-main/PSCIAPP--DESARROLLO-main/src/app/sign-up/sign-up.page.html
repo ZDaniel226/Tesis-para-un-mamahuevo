@@ -1,0 +1,42 @@
+<ion-content [fullscreen]="true" color="tertiary">
+  <div class="general"> <!-- Este el el contenedor general que engloba todos los elementos que estan adentro -->
+    <div class="regresar"> <!-- Igual es un contenedor, pero este es mas pequeño y engloba solo el boton para regresar al menu inicial  -->
+      <a href="/home">
+        <img src="../../assets/arrow-left.png" alt="">
+      </a>
+    </div>
+    <ion-back-button></ion-back-button>
+    <br>
+    <div class="texto">
+      <ion-label id="titulo">Registrate en PSY</ion-label>
+      <br><br>
+      <div class="contTex">
+        <ion-label id="text">Descubre nuestra aplicacion e indaga todas sus funcionalidades que te ayudaran con tu estado emocional</ion-label>
+      </div>
+    </div>
+    <br><br>
+    <br><br>
+    <div class="text-correo">
+    <ion-label>Correo:</ion-label>
+  </div>
+    <form [formGroup]="formReg" (ngSubmit)="onSubmit()">
+      <ion-item class="mb-3">
+        <ion-label position="floating">Email</ion-label>
+        <ion-input type="text" formControlName="email"></ion-input>
+      </ion-item> 
+      <ion-item class="mb-3">
+        <ion-label position="floating">Password</ion-label>
+        <ion-input type="password" formControlName="password"></ion-input>
+      </ion-item>
+      <div class="button">
+      <ion-button class="boton" shape="round" type="submit" >Registrarse</ion-button>
+    </div>
+    </form>
+    <br><br>
+    <div id="texinf">
+      <ion-label id="terCond">Al registrarte aceptas todos nuestros terminos y condicione y nuestra plotica de privacidad de esta aplicacion</ion-label>
+      <ion-label>¿Ya tienes una cuenta? </ion-label>
+      <a href="login"><ion-label>Log in</ion-label></a>
+    </div>
+  </div>
+</ion-content>

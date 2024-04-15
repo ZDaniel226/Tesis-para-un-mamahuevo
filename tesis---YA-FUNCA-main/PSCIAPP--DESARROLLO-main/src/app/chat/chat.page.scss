@@ -1,0 +1,57 @@
+ion-toolbar{
+  border-radius: 0px 0cap 25px 25px;
+}
+.chat-item{
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  
+  &.bot{
+    --background: transparent;
+  }
+}
+
+.text-box-item{
+  --border-radius: 15px;
+  --backgroud: var(--ion-color-light);
+}
+.chat-icon{
+  font-size: 23px;
+}
+
+.ion-badge{
+  padding: 15px;
+}
+
+.w-space{
+  white-space: pre-line;
+}
+
+.submit-icon{
+  font-size: 25px;
+}
+
+.empty{
+  text-align: center;
+  padding-top: 25vh;
+  opacity: 30%;
+  ion-icon {
+    font-size: 120px;
+  }
+}
+
+.chat-icon {
+  width: 30px; /* Ajusta el ancho según tus necesidades */
+  height: 30px; /* Ajusta la altura según tus necesidades */
+  background-size: cover; /* Ajusta la propiedad según tus necesidades */
+}
+
+.regresar {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Esto empujará el elemento a la izquierda */
+}
+
+.regresar img {
+  width: 30px; /* Ajusta el ancho de la imagen según lo necesites */
+  height: auto; /* Esto mantendrá la proporción de la imagen */
+}

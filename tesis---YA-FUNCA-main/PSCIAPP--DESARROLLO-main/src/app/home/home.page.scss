@@ -1,0 +1,204 @@
+//estos son los estilos que se les dara a cada uno de los elementos que estan en el html
+//los que estan con puntos son de clases, los que estan con # son de id, y los que no tienen nd al comienzo son de las etiquetas 
+
+*{//el asterisco es para dar estilos generales
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ion-content {
+  --background: linear-gradient(to bottom, #5dbba7, var(--ion-background-color));
+  --ion-background-color:  #4697B4;
+  background-color: #5c5a5a;
+  width: 100%;
+  vertical-align: middle;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.general{
+  display: grid;
+  align-content: space-between;
+}
+.logo{
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+}
+
+img{
+  border-radius: 100%;
+  width: 70%;
+  max-width: 400px;
+}
+
+.texto{
+  font-size: 20px;
+  text-align: center;
+  color: #A7D0D2;
+  
+}
+
+#titulo{
+  color: var(--color-grey-900, #A7D0D2);
+  text-align: center;
+  font-family: var(--heading-h-4-font-family, "Inter-Bold", sans-serif);
+  font-size: var(--heading-h-4-font-size, 24px);
+  line-height: var(--heading-h-4-line-height, 130%);
+  font-weight: var(--heading-h-4-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+
+#subTitulo{
+  color: var(--color-secondary-400, #ffd534);
+  text-align: center;
+  font-family: var(
+      --body-medium-regular-font-family,
+      "Inter-Regular",
+      sans-serif
+  );
+  font-size: var(--body-medium-regular-font-size, 14px);
+  line-height: var(--body-medium-regular-line-height, 160%);
+  font-weight: var(--body-medium-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.comenzar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.boton{
+  background: #3b778d;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 56px;
+  position: relative;
+}
+
+.iSesionCon{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.or {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.rectangle-2 {
+  background: var(--color-grey-200, #e5e7eb);
+  border-radius: 50px;
+  flex: 1;
+  height: 1px;
+  position: relative;
+}
+.inicia-con {
+  color: var(--color-grey-500, #ffd534);
+  text-align: center;
+  font-family: var(
+      --body-medium-regular-font-family,
+      "Manrope-Regular",
+      sans-serif
+  );
+  font-size: var(--body-medium-regular-font-size, 14px);
+  line-height: var(--body-medium-regular-line-height, 165%);
+  font-weight: var(--body-medium-regular-font-weight, 400);
+  position: relative;
+}
+
+.rectangle-1 {
+  background: var(--color-grey-200, #e5e7eb);
+  border-radius: 50px;
+  flex: 1;
+  height: 1px;
+  position: relative;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.google{
+  border-radius: 12px;
+  border-style: solid;
+  border-color: var(--color-grey-100, #e8eaed);
+  border-width: 1px;
+  padding: 16px;
+  flex: 1;
+  height: 56px;
+  position: relative;
+}
+
+.google ion-label {
+  color: var(--color-grey-900, #ffffff);
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 110.25px);
+  top: calc(50% - 12px);
+  width: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facebook{
+  border-radius: 12px;
+  border-style: solid;
+  border-color: var(--color-grey-100, #e8eaed);
+  border-width: 1px;
+  padding: 16px;
+  flex: 1;
+  height: 56px;
+  position: relative;
+}
+
+.facebook ion-label {
+  color: var(--color-grey-900, #ffffff);
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 110.25px);
+  top: calc(50% - 12px);
+  width: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  text-decoration:  none;
+  color: #000000;
+}

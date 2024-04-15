@@ -1,0 +1,33 @@
+<ion-app>
+  <ion-menu menuId="main-menu" contentId="main-content">
+    <!-- Contenido del menú -->
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Configuración</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item routerLink="/principal2">
+          <ion-label>Inicio</ion-label>
+        </ion-item>
+        <br>
+        <ion-item (click)="irChat()">
+          <ion-label>Chat</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+
+  <!-- Barra de navegación -->
+  <ion-header class="ion-no-border"> 
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-header>
+</ion-app>
+
+  <!-- Esta sección debería estar dentro del ion-router-outlet -->
+  

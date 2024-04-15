@@ -1,0 +1,93 @@
+<ion-content  class="ion-padding"> 
+  <div class="general"> 
+    <div class="logo"> 
+      <img src="../../assets/logo.jpg" alt=""> 
+    </div> 
+    <br> 
+    <div class="texto"> 
+      <ion-label id="titulo">Bienvenido a PSY</ion-label> 
+      <br>
+      <ion-label id="subTitulo">Tu compañía emocional en un solo lugar</ion-label>
+    </div>
+    <br>
+    <br>
+    <a href="/login">
+      <div class="comenzar">
+        <ion-button class="boton" shape="round">
+          <ion-label>Comencemos</ion-label>
+        </ion-button>
+      </div>
+    </a>
+    <br><br>
+    <div class="iSesionCon">
+      <div class="or">
+        <div class="rectangle-2"></div>
+        <div class="inicia-con">Inicia o registrate</div>
+        <div class="rectangle-1"></div>
+      </div>
+      <br><br>
+      <div class="icons">
+        <div class="google" (click)="loginWithGoogle()"    ><!-- muestra el icono de goole  -->
+          <svg
+            class="flat-color-icons-google"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21.8055 10.0415H21V10H12V14H17.6515C16.827 16.3285 14.6115 18 12 18C8.6865 18 6 15.3135 6 12C6 8.6865 8.6865 6 12 6C13.5295 6 14.921 6.577 15.9805 7.5195L18.809 4.691C17.023 3.0265 14.634 2 12 2C6.4775 2 2 6.4775 2 12C2 17.5225 6.4775 22 12 22C17.5225 22 22 17.5225 22 12C22 11.3295 21.931 10.675 21.8055 10.0415Z"
+              fill="#FFC107"
+            />
+            <path
+              d="M3.15295 7.3455L6.43845 9.755C7.32745 7.554 9.48045 6 12 6C13.5295 6 14.921 6.577 15.9805 7.5195L18.809 4.691C17.023 3.0265 14.634 2 12 2C8.15896 2 4.82795 4.1685 3.15295 7.3455Z"
+              fill="#FF3D00"
+            />
+            <path
+              d="M12 22.0001C14.583 22.0001 16.93 21.0116 18.7045 19.4041L15.6095 16.7851C14.5718 17.5743 13.3038 18.0011 12 18.0001C9.39903 18.0001 7.19053 16.3416 6.35853 14.0271L3.09753 16.5396C4.75253 19.7781 8.11353 22.0001 12 22.0001Z"
+              fill="#4A9C43"
+            />
+            <path
+              d="M21.8055 10.0415H21V10H12V14H17.6515C17.2571 15.1082 16.5467 16.0766 15.608 16.7855L15.6095 16.7845L18.7045 19.4035C18.4855 19.6025 22 17 22 12C22 11.3295 21.931 10.675 21.8055 10.0415Z"
+              fill="#1976D2"
+            />
+          </svg>
+          <ion-label>Google</ion-label>
+        </div>
+        <div class="facebook"><!-- muestra el icono de facebook  -->
+          <svg
+            class="logos-facebook"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_3_1608)">
+              <path
+                d="M24 12C24 5.37263 18.6274 0 12 0C5.37262 0 0 5.37253 0 12C0 17.9895 4.38825 22.954 10.125 23.8542V15.4688H7.07812V12H10.125V9.35625C10.125 6.34875 11.9166 4.6875 14.6575 4.6875C15.9705 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8306C14.3398 7.875 13.875 8.80003 13.875 9.74906V12H17.2031L16.6711 15.4688H13.875V23.8542C19.6117 22.954 24 17.9896 24 12Z"
+                fill="#1877F2"
+              />
+              <path
+                d="M16.6711 15.4688L17.2031 12H13.875V9.74906C13.875 8.79994 14.3399 7.875 15.8306 7.875H17.3438V4.92188C17.3438 4.92188 15.9705 4.6875 14.6575 4.6875C11.9166 4.6875 10.125 6.34875 10.125 9.35625V12H7.07812V15.4688H10.125V23.8542C10.7453 23.9514 11.3722 24.0002 12 24C12.6278 24.0002 13.2547 23.9514 13.875 23.8542V15.4688H16.6711Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_3_1608">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          <ion-label>facebook</ion-label>
+        </div>
+      </div>
+      <br><br>
+      <div class="texto"><!-- muestra el texto inferior en el que esta el hiperbinculo para moverse al registro de sesion  -->
+        <ion-label>¿Aún no tienes una cuenta? </ion-label>
+        <a href="sign-up"><ion-label>Sign up</ion-label></a><!--  vinculo para dirigirse a la pagina de registro -->
+      </div>
+    </div>
+  </div>
+</ion-content>
